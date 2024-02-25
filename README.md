@@ -65,7 +65,7 @@ This python Notebook uses *OptoDF.csv*. After installing all dependencies you sh
 
 --------------
 
-### Web Application
+## Web Application
 1. Install Web App R dependencies (It is recommended to install them all)
 2. Go to OptogaitPredictor/OptoBelopApp
 3. Open *Launcher_App.R* with RStudio.
