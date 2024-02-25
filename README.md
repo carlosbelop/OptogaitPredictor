@@ -15,7 +15,7 @@ The model included in the repository is the last one specified in the memory, re
 ### R dependencies
 R version 4.3.1 (2023-06-16 ucrt)
 
----- For Web app ----
+**For Web app**
 shinycssloaders_1.0.0
 shinyjs_2.1.0
 dplyr_1.1.2
@@ -30,8 +30,9 @@ shinydashboard_0.7.2
 DT_0.28
 reticulate_1.31
 shiny_1.7.5
----------
----- For pre-processing and training the models ----
+
+
+**For pre-processing and training the models**
 mlr3pipelines_0.5.0-9000
 BBmisc_1.13
 mlr3tuning_0.19.0.9000
@@ -48,12 +49,12 @@ rjson_0.2.21
 stringr_1.5.0
 tidyr_1.3.0             
 MASS_7.3-60
-----------
+
 
 ### Python dependencies
 Install requirements.txt
 
-------------------------- Optional Scripts to see results described in *Project_Memory.pdf*  ---------------------------------------------------
+## Optional Scripts to see results described in *Project_Memory.pdf* 
 ### R/T1.Rmd
 Unfortunately, due to privacy reasons, pre-processing done in RStudio ( First part of *T1.Rmd* file) is not reproducible, however we provide the final file obtained: *OptoDF.csv*
 
@@ -65,7 +66,7 @@ This python Notebook uses *OptoDF.csv*. After installing all dependencies you sh
 --------------
 
 ### Web Application
-1. Install Web App R dependencies (I recommend installing them all)
+1. Install Web App R dependencies (It is recommended to install them all)
 2. Go to OptogaitPredictor/OptoBelopApp
 3. Open *Launcher_App.R* with RStudio.
 4. Update the path in the second line to the absolute path where you have that script (*Launcher_App.R*)
