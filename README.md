@@ -15,7 +15,7 @@ The model included in the repository is the last one specified in the memory, re
 ### R dependencies
 R version 4.3.1 (2023-06-16 ucrt)
 
-**For Web app**
+**For Web app**   
 shinycssloaders_1.0.0
 shinyjs_2.1.0
 dplyr_1.1.2
@@ -32,7 +32,7 @@ reticulate_1.31
 shiny_1.7.5
 
 
-**For pre-processing and training the models**
+**For pre-processing and training the models**  
 mlr3pipelines_0.5.0-9000
 BBmisc_1.13
 mlr3tuning_0.19.0.9000
